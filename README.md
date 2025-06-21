@@ -1,10 +1,8 @@
 # Blink X Sites
 
-A modern web application platform built with RedwoodJS SDK and React, deployed to Cloudflare Workers.
-
 ## Overview
 
-Blink X Sites is a high-performance web application framework that leverages the power of RedwoodJS SDK and React to create fast, server-driven web applications. The platform is designed to be deployed on Cloudflare Workers, providing global distribution, low latency, and high availability.
+Blink X Sites is a high-performance ai assisted visual builder that leverages the power of RedwoodJS SDK and React to create fast, server-driven web applications. Each site is designed to be deployed on Cloudflare Workers, providing global distribution, low latency, and high availability.
 
 ## Technologies
 
