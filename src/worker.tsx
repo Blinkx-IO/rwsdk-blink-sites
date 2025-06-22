@@ -20,7 +20,9 @@ export default defineApp<RequestInfo<any, AppContext>>([
   render(Document, [
     //Add this to protected routes
     sessionMiddleware,
-    route("/", () => <Home />),
+    route("/", async () => {
+      return <Home />
+    }),
     layout(AppLayout, [
       route("/protected", () => {
         return new Response("Protected")

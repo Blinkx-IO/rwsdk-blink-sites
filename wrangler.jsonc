@@ -21,7 +21,7 @@
     ]
   },
   "vars": {
-    "": "__change_me__"
+    "LOCAL_D1": "LOCAL_D1"
   },
   "migrations": [
     {
@@ -35,7 +35,8 @@
     {
       "binding": "blink_d1_db",
       "database_name": "__change_me__",
-      "database_id": "__change_me__"
+      "database_id": "__change_me__",
+      "migrations_dir": "db/d1/migrations",
     }
   ]
 }
